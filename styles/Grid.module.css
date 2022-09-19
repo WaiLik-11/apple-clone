@@ -1,0 +1,85 @@
+.GridSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 94rem; */
+  overflow: hidden;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.row .gridItem {
+  height: 598px;
+  flex: 0.497;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background: #fbfbfb;
+}
+
+.row .gridItem .background {
+  top: -13%;
+  cursor: pointer;
+}
+
+.topTitle {
+  padding-top: 50px;
+  color: #f5f5f7;
+  text-align: center;
+  z-index: 3;
+}
+
+.topTitle > h1 {
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.topTitle > h3 {
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: 0.004rem;
+}
+
+.topTitle .logoImageContainer > img {
+  width: 180px;
+  margin-bottom: 10px;
+}
+
+.black {
+  mix-blend-mode: difference;
+}
+
+.links {
+  margin-top: 12px;
+}
+
+.links > a {
+  font-size: 21px;
+  margin-left: -5px;
+  font-weight: 400;
+  color: #2997ff;
+  text-decoration: none;
+}
+
+.links > a:hover {
+  text-decoration: underline;
+}
+
+.links > a:nth-child(2) {
+  margin-left: 50px;
+}
+
+.links .arrow {
+  width: 12px;
+  height: 12px;
+}

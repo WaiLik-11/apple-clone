@@ -1,0 +1,21 @@
+.container {
+  height: 45px;
+  width: 100%;
+  background: #f0f0f0;
+  text-align: center;
+  line-height: 45px;
+  margin-top: 45px;
+  color: #1d1d1f;
+  font-family: "Inter", sans-serif;
+}
+
+.container > span {
+  color: var(--a);
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.container>span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

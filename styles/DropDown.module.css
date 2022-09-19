@@ -1,0 +1,48 @@
+.content {
+  position: absolute;
+  right: 17.6%;
+  background-color: #f9f9f9;
+  min-width: 290px;
+  box-shadow: 0px 8px 16px 8px rgb(0 0 0 / 20%);
+  z-index: -1;
+  margin-top: 1px;
+  margin-left: -135px;
+  border-radius: 17px;
+  padding: 3px;
+  margin-bottom: 2px;
+}
+
+.content > hr {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.text {
+  text-align: center;
+  color: var(--textGray);
+  font-size: 14px;
+  margin: 10px;
+  padding: 35px 0px 23px;
+  font-weight: 500;
+  cursor: default;
+}
+
+.item {
+  color: #06c;
+  display: inline-flex;
+  line-height: 44px;
+  padding: 0 28px;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: -0.016em;
+}
+
+.item > p {
+  margin-left: 10px;
+}
+
+.item:hover {
+  text-decoration: underline;
+}

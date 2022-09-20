@@ -44,7 +44,7 @@ export default function DropDown() {
             </div>
           </Link>
           <hr />
-          <Link href="/signin">
+          <Link href="auth/signin">
             <div className={css.item}>
               <Image src={user} alt="" />
               <p>Sign in</p>
